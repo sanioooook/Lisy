@@ -5,11 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "vue_ui": "vue ui",
+    "update_pack": "npm update"
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^3.0.0",
+    "vue": "^3.0.2",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
   },
@@ -19,7 +21,7 @@
     "@vue/cli-plugin-router": "^4.5.8",
     "@vue/cli-plugin-vuex": "^4.5.8",
     "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/compiler-sfc": "^3.0.2",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.11.0",
     "eslint-plugin-vue": "^7.0.0-0",
